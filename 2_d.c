@@ -4,7 +4,7 @@
 float sumFoo(int n) {
     float result = 1;
     for (int i = 2; i <= n; i++) {
-        result += (1 / pow(n, 2));
+        result += (1 / pow(i, 2));
     }
 
     return result;
